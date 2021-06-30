@@ -1,0 +1,37 @@
+---
+layout: default
+---
+{% include set_language.html %}
+
+<!-- Blog Posts -->
+<div class="section">
+  <div class="container">
+    <div class="filter filter-style-3 margin-bottom-50 text-center">
+      <ul>
+        <li class="active" data-filter="*">All</li>
+        <li data-filter=".category-1">First</li>
+        <li data-filter=".category-2">Second</li>
+        <li data-filter=".category-3">Third</li>
+      </ul>
+    </div>
+    
+    <div class="portfolio-wrapper masonry masonry-column-3 masonry-spacing-40">
+      {% for post in posts %}
+        <!-- Masonry Item -->
+        <div class="portfolio-item masonry-item {{ post.categories | join: ' ' }}">
+          <div class="hoverbox-9 margin-bottom-20">
+            <a href="{{ post.url }}">
+              <img src="{{ post.image }}" alt="{{ post.title }}">
+              <div class="content bg-black-04">
+                <span class="font-family-tertiary font-small font-weight-normal uppercase text-white line-height-100">{{ post.date | date_to_string }}</span>
+              </div>
+            </a>
+          </div>
+          <h5 class="font-weight-normal"><a href="{{ post.url }}">{{ post.title }}</a></h5>
+          <p>{{ post.excerpt }} {{ post.categories | join: ' ' }}</p>
+        </div>
+      {% endfor %}
+    </div><!-- end masonry -->
+  </div><!-- end container -->
+</div>
+<!-- end Blog Posts -->
