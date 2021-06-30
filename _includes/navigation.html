@@ -5,7 +5,7 @@
       <!-- Logo -->
       <div class="header-logo">
           <h3>
-            <a href="/{% if page.lang == 'en' %}en{% endif %}">
+            <a href="/{% if page.lang %}{{ page.lang }}{% endif %}">
               <img src="/assets/images/logos/logo2_b.png" />
             </a>
           </h3>
@@ -47,8 +47,10 @@
               </a>
               <ul class="nav-dropdown">
                 <li class="nav-dropdown-item">
-                  <a class="nav-dropdown-link" href="/"><img style="width: 20px;" src="/assets/images/flag_ec.svg"/> ES</a>
-                  <a class="nav-dropdown-link" href="/en"><img style="width: 20px;" src="/assets/images/flag_gb.svg"/> EN</a>
+                  <a class="nav-dropdown-link" href="/es"><img style="width: 20px;" src="/assets/images/flag_ec.svg"/> Español</a>
+                </li>
+                <li class="nav-dropdown-item">
+                  <a class="nav-dropdown-link" href="/en"><img style="width: 20px;" src="/assets/images/flag_gb.svg"/> English</a>
                 </li>
               </ul>
             </li>

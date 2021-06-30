@@ -1,18 +1,18 @@
 - name: Strategy
-  link: /blog.html
+  link: /en/blog.html
 - name: Leadership
-  link: /blog.html
+  link: /en/blog.html
 - name: Technology
-  link: /blog.html
+  link: /en/blog.html
 - name: More Categories
   items: 
     - name: Tech Leadership
-      link: /
+      link: /en/
     - name: Team Management
       items:
         - name: People
-          link: /
+          link: /en/
         - name: Tools
-          link: /
+          link: /en/
 - name: About me
-  link: /about.html
+  link: /en/about.html
