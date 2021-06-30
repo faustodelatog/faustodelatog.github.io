@@ -18,46 +18,25 @@ title: Technology & Business Leader
 </div>
 <!-- end Hero section -->	
 
+
 <!-- About section -->
 <div class="container">
     <div class="move-top-100">
         <div class="row col-spacing-20">
+            {% for category in site.data.main_categories %}
             <div class="col-12 col-lg-4">
                 <div class="hoverbox-6 border-radius-025">
-                    <img src="../assets/images/strategy.jpg" alt="">
+                    <img src="{{ category.image }}" alt="">
                     <div class="content">
-                        <h5>Strategy</h5>
-                        <p>In a competitive and limited resource world, the right focus is the difference to win.</p>
+                        <h5>{{ category.name }}</h5>
+                        <p>{{ category.description }}</p>
                     </div>
                     <div class="hover-content">
                         <a class="button button-md button-radius button-outline-white" href="#">Learn More</a>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-4">
-                <div class="hoverbox-6 border-radius-025">
-                    <img src="../assets/images/leadership.jpg" alt="">
-                    <div class="content">
-                        <h5>Leadership</h5>
-                        <p>Leading ourselves and our organizations efficiently to respond to the demands of a permanently evolving world.</p>
-                    </div>
-                    <div class="hover-content">
-                        <a class="button button-md button-radius button-outline-white" href="#">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-4">
-                <div class="hoverbox-6 border-radius-025">
-                    <img src="../assets/images/technology.jpg" alt="">
-                    <div class="content">
-                        <h5>Technology</h5>
-                        <p>Using technology properly to benefit from a digital world of unlimited opportunities.</p>
-                    </div>
-                    <div class="hover-content">
-                        <a class="button button-md button-radius button-outline-white" href="#">Learn More</a>
-                    </div>
-                </div>
-            </div>
+            {% endfor %}
         </div><!-- end row -->
     </div>
 </div><!-- end container -->

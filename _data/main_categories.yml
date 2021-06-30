@@ -1,0 +1,9 @@
+- name: Strategy
+  image: /assets/images/strategy.jpg
+  description: In a competitive and limited resource world, the right focus is the difference to win.
+- name: Leadership
+  image: /assets/images/leadership.jpg
+  description: Leading ourselves and our organizations efficiently to respond to the demands of a permanently evolving world.
+- name: Technology
+  image: /assets/images/technology.jpg
+  description: Using technology properly to benefit from a digital world of unlimited opportunities.
