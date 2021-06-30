@@ -9,3 +9,4 @@
         {% assign data = site.data.es %}
         {% assign posts = site.posts | where: 'lang', 'es' %}
 {% endcase %}
+{% assign categories = posts | map: 'categories' | uniq | join: ',' | remove: page.lang | split: ',' %}
