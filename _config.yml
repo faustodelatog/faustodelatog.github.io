@@ -14,8 +14,13 @@ defaults:
     values:
       layout: "post"
   - scope:
+      path: "en"
+    values:
+      lang: "en"
+  - scope:
       path: ""
     values:
+      lang: "es"
       layout: "default"
 
 plugins:

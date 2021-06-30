@@ -1,0 +1,12 @@
+- 
+  name: Estrategia
+  image: /assets/images/strategy.jpg
+  description: En un mundo competitivo y de recursos limitados, el enfoque correcto marca la diferencia entre ganar y perder.
+- 
+  name: Liderazgo
+  image: /assets/images/leadership.jpg
+  description: Llevar a nuestras organizaciones a responder las demandas de un mundo en constante evolución.
+- 
+  name: Tecnología
+  image: /assets/images/technology.jpg
+  description: El uso adecuado de la tecnología permite aprovechar las oportunidades de un mundo digital sin límites.

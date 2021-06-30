@@ -1,9 +1,14 @@
+{% include set_language.html %}
 <!-- Header -->
 <div class="header right sticky-autohide">
   <div class="container">
       <!-- Logo -->
       <div class="header-logo">
-          <h3><a href="/">Fausto De La Torre</a></h3>
+          <h3>
+            <a href="/{% if page.lang == 'en' %}en{% endif %}">
+              <img src="/assets/images/logos/logo2_b.png" />
+            </a>
+          </h3>
           <!-- 
             <img class="logo-light" src="../assets/images/your-logo-light.png" alt=""> 
             <img class="logo-dark" src="../assets/images/your-logo-dark.png" alt="">
@@ -12,7 +17,7 @@
       <!-- Menu -->
       <div class="header-menu">
           <ul class="nav">
-            {% for item in site.data.navigation %}
+            {% for item in data.navigation %}
               <li class="nav-item">
                 <a class="nav-link {% if page.url == item.link %}current{% endif %}" href="{{ item.link }}">{{ item.name }}</a>
                 {% if item.items %}
@@ -35,13 +40,24 @@
                 {% endif %}
               </li>
             {% endfor %}
+            <li class="nav-item">
+              <a class="nav-link">
+                {% if page.lang == 'es' %}<img style="width: 20px;" src="/assets/images/flag_ec.svg"/> ES{% endif %}
+                {% if page.lang == 'en' %}<img style="width: 20px;" src="/assets/images/flag_gb.svg"/> EN{% endif %}
+              </a>
+              <ul class="nav-dropdown">
+                <li class="nav-dropdown-item">
+                  <a class="nav-dropdown-link" href="/"><img style="width: 20px;" src="/assets/images/flag_ec.svg"/> ES</a>
+                  <a class="nav-dropdown-link" href="/en"><img style="width: 20px;" src="/assets/images/flag_gb.svg"/> EN</a>
+                </li>
+              </ul>
+            </li>
           </ul>
       </div>
       <!-- Menu Extra -->
       <div class="header-menu-extra">
           <ul class="list-inline">
             <li><a href="https://www.linkedin.com/in/faustodelatorre/"><i class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="https://twitter.com/faustodelatog"><i class="fab fa-twitter"></i></a></li>
           </ul>
       </div>
       <!-- Menu Toggle -->

@@ -1,0 +1,18 @@
+- name: Estrategia
+  link: /blog.html
+- name: Liderazgo
+  link: /blog.html
+- name: Tecnología
+  link: /blog.html
+- name: Más Categorías
+  items: 
+    - name: Liderazgo Técnico
+      link: /
+    - name: Gestión de Equipos
+      items:
+        - name: Gente
+          link: /
+        - name: Herramientas
+          link: /
+- name: Acerca de mí
+  link: /about.html
