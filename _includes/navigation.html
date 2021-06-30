@@ -1,5 +1,54 @@
-<nav>
-  {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
-  {% endfor %}
-</nav>
+<!-- Header -->
+<div class="header right absolute-light sticky-autohide">
+  <div class="container">
+      <!-- Logo -->
+      <div class="header-logo">
+          <h3><a href="#">mono</a></h3>
+          <!-- 
+          <img class="logo-dark" src="../assets/images/your-logo-dark.png" alt="">
+          <img class="logo-light" src="../assets/images/your-logo-light.png" alt=""> 
+          -->
+      </div>
+      <!-- Menu -->
+      <div class="header-menu">
+          <ul class="nav">
+            {% for item in site.data.navigation %}
+              <li class="nav-item">
+                <a class="nav-link {% if page.url == item.link %}current{% endif %}" href="{{ item.link }}">{{ item.name }}</a>
+                {% if item.items %}
+                  <ul class="nav-dropdown">
+                    {% for subItem in item.items %}
+                      <li class="nav-dropdown-item">
+                        <a class="nav-dropdown-link" href="{{ subItem.link }}">{{ subItem.name }}</a>
+                        {% if subItem.items %}
+                          <ul class="nav-subdropdown">
+                            {% for subSubItem in subItem.items %}
+                              <li class="nav-subdropdown-item">
+                                <a class="nav-subdropdown-link" href="{{ subSubItem.link }}">{{ subSubItem.name }}</a>
+                              </li>
+                            {% endfor %}
+                          </ul>
+                        {% endif %}
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+      </div>
+      <!-- Menu Extra -->
+      <div class="header-menu-extra">
+          <ul class="list-inline">
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+      </div>
+      <!-- Menu Toggle -->
+      <button class="header-toggle">
+          <span></span>
+      </button>
+  </div><!-- end container -->
+</div>
+<!-- end Header -->
