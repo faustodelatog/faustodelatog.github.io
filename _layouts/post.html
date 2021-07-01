@@ -1,15 +1,32 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
+{% assign author = site.authors | where: 'short_name', page.author | first %}
+{% include set_language.html %}
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-10 offset-md-1">
+        <h2 class="font-weight-normal">{{ page.title }}</h2>
+        <ul class="list-inline-dash">
+          {% if author %}
+          <li><a href="{{ author.url }}">{{ author.name }}</a></li>
+          {% endif %}
+          <li>{{ page.date | date_to_string }} <i style="font-size: smaller;">({{ page.date | timeago }})</i></li>
+        </ul>
+      </div>
+    </div><!-- end row -->
+  </div><!-- end container -->
+  <br /><br />
+  <!-- Post Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-10 offset-md-1">
+        {{ content }}
+        {% include post_tag_share.html %}
+      </div>
+    </div><!-- end row -->
+  </div><!-- end container -->
+<!-- end Post Content -->
+</div>
 
-<p>
-  {{ page.date | date_to_string }}<br />
-  {{ page.date | timeago }}
-  {% assign author = site.authors | where: 'short_name', page.author | first %}
-  {% if author %}
-    - <a href="{{ author.url }}">{{ author.name }}</a>
-  {% endif %}
-</p>
-
-{{ content }}

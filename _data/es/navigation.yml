@@ -1,9 +1,9 @@
 - name: Estrategia
-  link: /es/blog.html
+  link: /es/strategy.html
 - name: Liderazgo
-  link: /es/blog.html
+  link: /es/leadership.html
 - name: Tecnología
-  link: /es/blog.html
+  link: /es/technology.html
 - name: Más Categorías
   items: 
     - name: Liderazgo Técnico

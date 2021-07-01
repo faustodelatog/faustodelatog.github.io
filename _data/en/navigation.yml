@@ -1,9 +1,9 @@
 - name: Strategy
-  link: /en/blog.html
+  link: /en/strategy.html
 - name: Leadership
-  link: /en/blog.html
+  link: /en/leadership.html
 - name: Technology
-  link: /en/blog.html
+  link: /en/technology.html
 - name: More Categories
   items: 
     - name: Tech Leadership

@@ -1,0 +1,36 @@
+---
+layout: default
+---
+{% assign author = site.authors | where: 'short_name', page.author | first %}
+{% include set_language.html %}
+<div class="section-xl bg-image parallax" data-bg-src="{{ page.image }}">
+  <div class="bg-black-06">
+    <div class="container text-center">
+      <h1 class="font-weight-light">{{ page.title }}</h1>
+      <ul class="list-inline-dash">
+        {% if author %}
+        <li><a href="{{ author.url }}">{{ author.name }}</a></li>
+        {% endif %}
+        <li><a href="#">{{ page.date | date_to_string }} <i style="font-size: smaller;">({{ page.date | timeago }})</i></a></li>
+      </ul>
+    </div><!-- end container -->
+  </div>
+</div>
+
+<!-- Blog Post section -->
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2">
+        {% if page.audio %}
+        <div class="margin-bottom-30">
+          <iframe scrolling="no" allow="autoplay" src="{{ page.audio }}"></iframe>
+        </div>
+        {% endif %}
+        {{ content }}
+        {% include post_tag_share.html %}
+      </div>
+    </div><!-- end row -->
+  </div><!-- end container -->
+</div>
+<!-- end Blog Post section -->
