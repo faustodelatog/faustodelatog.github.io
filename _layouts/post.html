@@ -7,13 +7,8 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-12 col-md-10 offset-md-1">
-        <h2 class="font-weight-normal">{{ page.title }}</h2>
-        <ul class="list-inline-dash">
-          {% if author %}
-          <li><a href="{{ author.url }}">{{ author.name }}</a></li>
-          {% endif %}
-          <li>{{ page.date | date_to_string }} <i style="font-size: smaller;">({{ page.date | timeago }})</i></li>
-        </ul>
+        <h1 class="font-weight-normal">{{ page.title }}</h1>
+        {% include post_title.html %}
       </div>
     </div><!-- end row -->
   </div><!-- end container -->

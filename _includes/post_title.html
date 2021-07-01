@@ -1,0 +1,12 @@
+<ul class="list-inline-dash">
+    {% if author %}
+    <li><a href="{{ author.url }}">{{ author.name }}</a></li>
+    {% endif %}
+    <li>{{ page.date | date_to_string }} <i style="font-size: smaller;">({{ page.date | timeago }})</i></li>
+  </ul>
+  <ul class="list-inline">
+    {% assign post_categories = page.categories | uniq | join: ',' | remove: page.lang | split: ',' %}
+    {% for category in post_categories %}
+    <li><a href="#">{{ category }}</a></li>
+    {% endfor %}
+  </ul>

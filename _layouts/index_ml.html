@@ -50,28 +50,27 @@ layout: default
                 <h2 class="font-weight-light margin-0">{{ data.labels.explore_posts }}</h2>
             </div>
         </div><!-- end row -->
-
-        <div class="row col-spacing-40">
-            <!-- Blog Post box -->
-            {% assign first_posts = site.posts | slice:0, 3 %}    
+        {% assign first_posts = posts | slice:0, 6 %}    
+        <div class="container">
+            <div class="portfolio-wrapper masonry masonry-column-3 masonry-spacing-40">
             {% for post in first_posts %}
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="hoverbox-9 border-radius-025 text-right">
+                <!-- Masonry Item -->
+                <div class="portfolio-item masonry-item {{ post.categories | join: ' ' }}">
+                <div class="hoverbox-9 margin-bottom-20">
                     <a href="{{ post.url }}">
-                        <img src="{{ post.image }}" alt="">
-                        <div class="content bg-black-06 border-radius-025">
-                            <span class="font-small text-white">{{ post.date | date_to_string }}</span>
-                        </div>
+                    <img src="{{ post.image }}" alt="{{ post.title }}">
+                    <div class="content bg-black-04">
+                        <span class="font-family-tertiary font-small font-weight-normal uppercase text-white line-height-100">{{ post.date | date_to_string }}</span>
+                    </div>
                     </a>
                 </div>
-                <div class="margin-top-10 padding-y-10 padding-y-lg-20">
-                    <h5 class="font-weight-medium"><a class="text-link-1" href="{{ post.url }}">{{ post.title }}</a></h5>
-                    <p>{{ post.excerpt }}</p>
+                <h5 class="font-weight-normal"><a href="{{ post.url }}">{{ post.title }}</a></h5>
+                <p>{{ post.excerpt }}</p>
                 </div>
-            </div>
             {% endfor %}
-            <!-- end Blog Post box -->
-        </div><!-- end row -->
+            </div><!-- end masonry -->
+        </div><!-- end container -->
+
         <div class="margin-top-40 margin-lg-top-50 text-center">
             <a class="button button-lg button-radius button-outline-grey" href="blog.html">{{ data.labels.view_more_posts }}</a>
         </div>
