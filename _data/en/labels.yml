@@ -11,6 +11,7 @@ about_me: About me
 all_posts: All posts
 message_404: Sorry, It appears that the page you were looking for doesn't exist or might have been moved.
 home: Home
+job_title: Technology Director
 technology_strategy: Technology Strategy
 enterprise_architecture: Enterprise Architecture
 public_speaking: Public Speaking
@@ -20,13 +21,9 @@ software_development: Software Development
 high_performing_teams: High Performing Teams
 lean_agile: Lean & Agile
 
-job_title: Technology director
-bio: "Technology Director for Thoughtworks Ecuador and a member of the Global
-Technology Advisory Board. Co-responsible for the long-term success and growth
-of ThoughtWorks Ecuador, designing and executing the technology strategy.<br /><br />
-I help large organizations to connect business and IT strategies in their digital
-transformation and innovation journey through IT consulting and custom software
-delivery.<br /><br />
-Large experience mentoring and leading technical leaders and multidisciplinary
-teams to provide sustainable solutions by building new digital products and
-modernizing legacy systems."
+bio: "Fausto De La Torre is the Europe Director of Enterprise Modernization, Platforms, and Cloud 
+and member of the Global Technology Advisory Board at Thoughtworks.<br /><br />
+His work enables large organizations to connect business and IT strategies in their digital transformation and innovation journey 
+through IT consulting and software development.<br /><br />
+He has extensive experience mentoring and leading technical leaders 
+and multidisciplinary teams to provide sustainable solutions by building new digital products and modernizing legacy systems.<br /><br />"
