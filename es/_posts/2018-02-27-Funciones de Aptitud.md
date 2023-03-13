@@ -4,6 +4,7 @@ author: fausto
 title: Funciones de Aptitud (Fitness Functions)
 image: /assets/images/funciones_aptitud.jpeg
 categories: tecnologia
+excerpt: Parte de los conceptos de una arquitectura evolutiva son las funciones de aptitud, que en esencia, tratan de hacer verificables las características principales de arquitectura que guían una solución de manera constante e incremental.
 ---
 Cuando creamos una arquitectura, lo hacemos con un propósito, y muchas (o todas) las veces pensamos que la arquitectura que estamos ideando antes de iniciar el desarrollo es la que va a cumplir el propósito, que puede ser asegurarse del rendimiento, auditabilidad, escalabilidad, mantenibilidad, etc. (los llamados requerimientos no funciones)<br/><br/>
 

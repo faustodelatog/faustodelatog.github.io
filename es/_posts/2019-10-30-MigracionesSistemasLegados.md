@@ -7,11 +7,11 @@ categories: tecnologia
 excerpt: Enfocarse únicamente en la migración no siempre es la solución. La clave es cómo lidiar con los sistemas legados para que sean un catalizador, no un obstáculo para los requerimientos del negocio.
 ---
 
-Muchas empresas buscan migrar sus sistemas a una arquitectura moderna estrangulando aplicaciones legadas y adoptando microservicios. Estas empresas están enfrentando la migración como el problema a ser resuelto haciendo grandes inversiones, sin embargo están dejando de lado el problema real que los sistemas legados están ocasionando en relación a la incapacidad de agregar nuevas funcionalidades y acelerar el time to market.<br/>
-<br/>
+Muchas empresas buscan migrar sus sistemas a una arquitectura moderna estrangulando aplicaciones legadas y adoptando microservicios. Estas empresas están enfrentando la migración como el problema a ser resuelto haciendo grandes inversiones, sin embargo están dejando de lado el problema real que los sistemas legados están ocasionando en relación a la incapacidad de agregar nuevas funcionalidades y acelerar el time to market.<br/><br/>
+<br/><br/>
 
-*“Migramos y luego nos movemos rápido”.*<br/>
-<br/>
+*“Migramos y luego nos movemos rápido”.*<br/><br/>
+<br/><br/>
 Aunque a primera vista luce como una solución atinada, el problema de las migraciones buscando un “feature parity” es que el beneficio es percibido únicamente cuando la migración se haya completado, porque solo es en ese momento cuando se pueden agregar las nuevas funcionalidad que el negocio requería, sin embargo el objetivo es obtener los beneficios desde el primer momento de la inversión, y no al final cuando quizás ya no exista el presupuesto, o la prioridad de las iniciativas haya cambiado.
 <br/><br/>
 
