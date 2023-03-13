@@ -9,7 +9,7 @@ categories: tecnologia
 Muchas empresas buscan migrar sus sistemas a una arquitectura moderna estrangulando aplicaciones legadas y adoptando microservicios. Estas empresas están enfrentando la migración como el problema a ser resuelto haciendo grandes inversiones, sin embargo están dejando de lado el problema real que los sistemas legados están ocasionando en relación a la incapacidad de agregar nuevas funcionalidades y acelerar el time to market.<br/>
 <br/>
 
-####“Migramos y luego nos movemos rápido”.*<br/>
+*“Migramos y luego nos movemos rápido”.*<br/>
 <br/>
 Aunque a primera vista luce como una solución atinada, el problema de las migraciones buscando un “feature parity” es que el beneficio es percibido únicamente cuando la migración se haya completado, porque solo es en ese momento cuando se pueden agregar las nuevas funcionalidad que el negocio requería, sin embargo el objetivo es obtener los beneficios desde el primer momento de la inversión, y no al final cuando quizás ya no exista el presupuesto, o la prioridad de las iniciativas haya cambiado.
 <br/><br/>
