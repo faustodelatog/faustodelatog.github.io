@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_img
 author: fausto
 image: /assets/images/conways_law.jpeg
 title: Ley de Conway en la Arquitectura de Software
