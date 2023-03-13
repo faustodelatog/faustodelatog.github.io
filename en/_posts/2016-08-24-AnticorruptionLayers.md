@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_img
 author: fausto
 title: Anticorruption Layers
 image: /assets/images/capas_anticorrupcion.jpeg

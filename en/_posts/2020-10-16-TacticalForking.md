@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_img
 author: fausto
 title: Tactical Forking 
 image: /assets/images/tacticalforking.jpeg
