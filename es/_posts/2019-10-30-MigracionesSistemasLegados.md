@@ -2,7 +2,7 @@
 layout: post_img
 author: fausto
 title: Paremos las migraciones de sistemas legados, lidiemos con ellos.
-image: assets/images/migraciones_plant_into_glass.jpg
+image: /assets/images/migraciones_plant_into_glass.jpg
 categories: tecnologia
 ---
 
