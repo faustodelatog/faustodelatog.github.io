@@ -1,5 +1,5 @@
 ---
-layout: post_image
+layout: post_img
 author: fausto
 title: Architecture Process – Example
 image: /assets/images/architexture_example.jpg
