@@ -2,13 +2,13 @@
 layout: post_img
 author: fausto
 title: Trabajo remoto, una perspectiva de empresa y de equipos
-image: https://mono.flatheme.net/assets/images/blog-simple-post-2.jpg
+image: /assets/images/remotework.jpg
 categories: estrategia
 tags: estrategia
-excerpt: este es un resumen del blog que hace algo
+excerpt: Cuando el trabajo remoto pasa de ser un diferenciador a ser un mecanismo de subsistencia empresarial.
 
 ---
-> ## "Cuando el trabajo remoto pasa de ser un diferenciador a ser un mecanismo de subsistencia empresarial."
+> ### "Cuando el trabajo remoto pasa de ser un diferenciador a ser un mecanismo de subsistencia empresarial."
 
 En este espacio quiero abordar este tema desde un ángulo diferente: más allá del individuo, cómo hacerlo eficiente desde una perspectiva de equipo y de empresa.
 
@@ -19,9 +19,9 @@ El trabajo remoto, no es una tendencia aislada que sucede ahora, venía siendo u
 
 En opinión personal, dudo que el efecto del trabajo remoto se revierta completamente, aún superando la crisis actual, la “normalidad” cambiará y las empresas se verán forzadas a adaptarse a una nueva realidad. Es por eso que traigo a colación algunas lecciones aprendidas por más de 6 años en ThoughtWorks brindado servicios de consultoría tecnológica de manera remota y más de 20 años de aprendizajes colectivos de esta empresa brindando servicios distribuidos.
 
-# Desde la perspectiva de la empresa
+## Desde la perspectiva de la empresa
 
-> ## "El trabajo remoto debe ser considerado una capacidad empresarial."
+> ### "El trabajo remoto debe ser considerado una capacidad empresarial."
 
 Más allá de que una persona pueda hacerlo o que haya sido adoptado por un equipo, las organizaciones deben mirar el trabajo remoto como una capacidad empresarial a desarrollar.
 
@@ -67,9 +67,9 @@ Los horarios pueden cambiar ya que muchas personas podrán optimizar el tiempo d
 
 Nuevos proveedores, las organizaciones buscarán nuevos proveedores para adecuar espacios remotos de sus colaboradores.
 
-# Desde la perspectiva de los equipos
+## Desde la perspectiva de los equipos
 
-> ## "El todo es más que la suma de sus partes."
+> ### "El todo es más que la suma de sus partes."
 
 Cuando hablamos de un equipo no solo hablamos de un grupo de personas que trabajan juntas, sino de un ente que ha desarrollado una cultura, una forma de trabajo, valores compartidos y metas que van más allá del individuo. Hemos visto como aspectos de la cultura de un equipo se mantienen incluso cuando todos los miembros originales han sido reemplazados.
 
