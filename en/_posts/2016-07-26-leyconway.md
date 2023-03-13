@@ -2,9 +2,9 @@
 layout: post_img
 author: fausto
 image: /assets/images/conways_law.jpeg
-title: Ley de Conway en la Arquitectura de Software
+title: Conway’s Law in Software Architecture
 categories: tecnologia
-excerpt: Las organizaciones que diseñan sistemas … están limitadas a producir diseños que son copias de las estructuras de comunicación de estas organizaciones.
+excerpt: Organizations which design systems … are constrained to produce designs which are copies of the communication structures of these organizations..
 ---
 
 In 1967 M. Conway enunciated a phrase at the end of his publication [*How do committees invent?*](http://http://www.melconway.com/Home/Committees_Paper.html) This phrase was made popular by [*Fred Brooks*](http://https://en.wikipedia.org/wiki/Fred_Brooks)on his book [The Mythical Man-Month.](htthttps://en.wikipedia.org/wiki/The_Mythical_Man-Monthp://) <br/>
