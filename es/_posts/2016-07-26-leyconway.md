@@ -1,12 +1,11 @@
 ---
 layout: post
 author: fausto
-image: assets/images/conways_law.jpeg
+image: /assets/images/conways_law.jpeg
 title: Ley de Conway en la Arquitectura de Software
 categories: estrategia
-excerpt: las organizaciones que diseñan sistemas … están limitadas a producir diseños que son copias de las estructuras de comunicación de estas organizaciones.
+excerpt: Las organizaciones que diseñan sistemas … están limitadas a producir diseños que son copias de las estructuras de comunicación de estas organizaciones.
 ---
-##Ley de Conway en la Arquitectura de Software
 
 En 1967 M. Conway enunció una frase en la conclusión de su publicación [*How do committees invent?*](http://http://www.melconway.com/Home/Committees_Paper.html) a la que [*Fred Brooks*](http://https://en.wikipedia.org/wiki/Fred_Brooks), la popularizó con el nombre de **Ley de Conway** en su libro [The Mythical Man-Month.](htthttps://en.wikipedia.org/wiki/The_Mythical_Man-Monthp://) <br/>
 <br/>
@@ -29,11 +28,11 @@ Es así que si el departamento de tecnología está dividido por conceptos técn
 
 ![División Técnica de los equipos detrabajo](/assets/images/divisiontecnicaequipos.jpg)<br/>
 <br/>
-*figura 1 - División técnica de los equipos de trabajo*
+*figura 1 - División técnica de los equipos de trabajo*<br/><br/>
 
 ![Arquitectura guiada por aspectos técnicos](/assets/images/Arquitecturaguiadaaspectostecnicos.jpg)<br/>
 <br/>
-*figura 2 – Arquitectura guiada por aspectos técnicos*
+*figura 2 – Arquitectura guiada por aspectos técnicos*<br/><br/>
 
 Los sistemas son dinámicos, siempre existen cambios y generalmente estos son ocasionados por cambios en las definiciones del negocio, si se favorece una división organizacional por capacidades técnicas, cada cambio en la definición del negocio exigirá trabajo, asignación de presupuesto, tiempo, etc. en cada una de las áreas técnicas que componen el grupo de trabajo; esta es una de las razones por las que en algunas organizaciones se tiende a agrupar requerimientos para “optimizar” el tiempo y los recursos, alargando el proceso de desarrollo hasta que “justifique” todo el trabajo que se debe llevar a cabo, lo que lleva a la insatisfacción del negocio con respecto al departamento de tecnología.<br/>
 <br/>
@@ -43,11 +42,11 @@ Por otro lado podemos encontrar organizaciones que favorecen equipos multidiscip
 
 ![División de equipos por capacidades de negocio](/assets/images/Divisionequiposcapacidadesnegocio.jpg)<br/>
 <br/>
-*figura 3 – División de equipos por capacidades de negocio*
+*figura 3 – División de equipos por capacidades de negocio*<br/><br/>
 
 ![Arquitectura guiada por el negocio](/assets/images/Arquitecturaguiadanegocio.jpg)<br/>
 <br/>
-*figura 4 – Arquitectura guiada por el negocio*
+*figura 4 – Arquitectura guiada por el negocio*<br/><br/>
 
 A la final el software es producto de un proceso intelectual colaborativo, por lo que reflejará las ideas de las personas que intervienen en este proceso y como hemos visto de las estructuras de comunicación entre equipos; es por ello que tomar en cuenta esta ley nos vendría bien a la hora de estructurar los equipos dependiendo de qué queremos conseguir.<br/>
 <br/>

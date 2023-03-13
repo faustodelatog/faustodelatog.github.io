@@ -4,6 +4,7 @@ author: fausto
 title: Paremos las migraciones de sistemas legados, lidiemos con ellos.
 image: /assets/images/migraciones_plant_into_glass.jpg
 categories: tecnologia
+excerpt: Enfocarse únicamente en la migración no siempre es la solución. La clave es cómo lidiar con los sistemas legados para que sean un catalizador, no un obstáculo para los requerimientos del negocio.
 ---
 
 Muchas empresas buscan migrar sus sistemas a una arquitectura moderna estrangulando aplicaciones legadas y adoptando microservicios. Estas empresas están enfrentando la migración como el problema a ser resuelto haciendo grandes inversiones, sin embargo están dejando de lado el problema real que los sistemas legados están ocasionando en relación a la incapacidad de agregar nuevas funcionalidades y acelerar el time to market.<br/>
