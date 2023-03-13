@@ -3,7 +3,7 @@ layout: post_img
 author: fausto
 image: /assets/images/conways_law.jpeg
 title: Ley de Conway en la Arquitectura de Software
-categories: estrategia
+categories: tecnologia
 excerpt: Las organizaciones que diseñan sistemas … están limitadas a producir diseños que son copias de las estructuras de comunicación de estas organizaciones.
 ---
 
