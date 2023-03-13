@@ -2,7 +2,7 @@
 layout: post_img
 author: fausto
 image: https://mono.flatheme.net/assets/images/business-simple-1-about-2.jpg
-categories: tecnología
+categories: tecnologia
 ---
 # **Funciones de Aptitud (Fitness Functions)**
 Cuando creamos una arquitectura, lo hacemos con un propósito, y muchas (o todas) las veces pensamos que la arquitectura que estamos ideando antes de iniciar el desarrollo es la que va a cumplir el propósito, que puede ser asegurarse del rendimiento, auditabilidad, escalabilidad, mantenibilidad, etc. (los llamados requerimientos no funciones)
