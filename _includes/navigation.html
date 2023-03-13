@@ -42,8 +42,8 @@
             {% endfor %}
             <li class="nav-item">
               <a class="nav-link">
-                {% if page.lang == 'es' %}<img style="width: 20px;" src="/assets/images/flag_ec.svg"/> ES{% endif %}
-                {% if page.lang == 'en' %}<img style="width: 20px;" src="/assets/images/flag_gb.svg"/> EN{% endif %}
+                {% if page.lang == 'es' %} ES{% endif %}
+                {% if page.lang == 'en' %} EN{% endif %}
               </a>
               <ul class="nav-dropdown">
                 {% assign current_lang_url = '/' | append: page.lang | append: '/' %}
