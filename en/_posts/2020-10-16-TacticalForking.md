@@ -24,7 +24,7 @@ Under this line of thinking, we could duplicate the application and begin to get
 What is sought with this approach is to obtain the benefit from the first moment in which each team can have its own workflow and path to production without affecting another team.<br/><br/>
 
 
-###How does Tactical Forking work?<br/><br/>
+###How does Tactical Forking work?###<br/><br/>
 ![Figure 3](/assets/images/tacticalforking_3.jpg)<br/><br/>
 
 **Forking (Duplication)**<br/><br/>
@@ -49,7 +49,7 @@ When we are implementing a microservice architecture, and we start with the Mono
 
 There are occasions in which an application was developed by a team and then other teams joined the same code base to implement other modules with different business needs, reaching a state in which there is too much coordination and communication for deployment, Correction of errors and even blockades to commit in the code due to pipelines broken by other equipment.<br/><br/>
 
-###Considerations<br/><br/>
+###Considerations###<br/><br/>
 
 Take into account the components that when they change require changes in both copies of the application, for example: non-modular css files that are not served in a cdn.<br/><br/>
 
