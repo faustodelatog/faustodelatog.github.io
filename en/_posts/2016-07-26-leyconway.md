@@ -7,8 +7,7 @@ categories: tecnologia
 excerpt: Organizations which design systems … are constrained to produce designs which are copies of the communication structures of these organizations..
 ---
 
-In 1967 M. Conway enunciated a phrase at the end of his publication [*How do committees invent?*](http://http://www.melconway.com/Home/Committees_Paper.html) This phrase was made popular by [*Fred Brooks*](http://https://en.wikipedia.org/wiki/Fred_Brooks)on his book [The Mythical Man-Month.](htthttps://en.wikipedia.org/wiki/The_Mythical_Man-Monthp://) <br/>
-<br/> with the name of **Conway’s Law.**
+In 1967 M. Conway enunciated a phrase at the end of his publication [*How do committees invent?*](http://http://www.melconway.com/Home/Committees_Paper.html) This phrase was made popular by [*Fred Brooks*](http://https://en.wikipedia.org/wiki/Fred_Brooks)on his book [The Mythical Man-Month.](htthttps://en.wikipedia.org/wiki/The_Mythical_Man-Monthp://) with the name of **Conway’s Law.**
 
 
 *“… organizations which design systems … are constrained to produce designs which are copies of the communication structures of these organizations.” M. Conway – 1967.*<br/>
