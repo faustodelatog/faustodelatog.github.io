@@ -1,8 +1,9 @@
 ---
-layout: post_image
+layout: post_img
 author: fausto
 image: /assets/images/squads_work.jpeg
-categories: category-3 category-2
+categories: tecnologia
+excerpt: Parte importante de ser un equipo ágil, es no solo ser reactivos a situaciones inesperadas sino también es estar inmiscuido en un proceso de mejora continua.
 ---
 Trabajar en un equipo grande implica desafíos, más aún cuando dicho equipo es distribuido, desafíos en el hecho de conservar prácticas ágiles y que estas aporten valor y no sean ejecutadas solamente porque así lo dice el manual; parte importante de ser un equipo ágil, es no solo ser reactivos a situaciones inesperadas sino también es estar inmiscuido en un proceso de mejora continua, en el que se puede evidenciar escenarios, que aunque no sean problemáticos a simple vista y formen parte de la rutina de trabajo, no son los más adecuados para ciertas condiciones.<br/><br/>
 
