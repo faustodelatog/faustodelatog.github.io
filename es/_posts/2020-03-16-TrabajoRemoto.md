@@ -3,7 +3,7 @@ layout: post_img
 author: fausto
 title: Trabajo remoto, una perspectiva de empresa y de equipos
 image: /assets/images/remotework.jpeg
-categories: estrategia
+categories: "estrategia"
 tags: "estrategia"
 excerpt: Cuando el trabajo remoto pasa de ser un diferenciador a ser un mecanismo de subsistencia empresarial.
 
