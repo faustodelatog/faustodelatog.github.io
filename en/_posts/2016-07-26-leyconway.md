@@ -3,7 +3,7 @@ layout: post_img
 author: fausto
 image: /assets/images/conways_law.jpeg
 title: Conway’s Law in Software Architecture
-categories: tecnologia
+categories: tecnology
 excerpt: Organizations which design systems … are constrained to produce designs which are copies of the communication structures of these organizations..
 ---
 
