@@ -2,7 +2,7 @@
 layout: post_img
 author: fausto
 title: Architecture Process – Example
-image: /assets/images/architexture_example.jpg
+image: /assets/images/architecture_example.jpg
 excerpt: Join me to this great example of Architecture process
 tags: tecnology
 categories: tecnology
