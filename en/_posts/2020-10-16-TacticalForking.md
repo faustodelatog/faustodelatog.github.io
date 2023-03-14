@@ -4,6 +4,7 @@ author: fausto
 title: Tactical Forking 
 image: /assets/images/tacticalforking.jpeg
 excerpt: Tactical forking like a strategy which involves creating a separate fork of the original project to develop new features or fix issues.
+tags: tecnology
 ---
 There are occasions in which multiple teams with different needs and business priorities work on the same code base, which infers communication and overhead in coordination between them at different moments of the development cycle, increasing the cycle time, time to recover from errors, etc..<br/><br/>
 
@@ -38,7 +39,7 @@ It is necessary to have a routing mechanism that allows users or consumers to ac
 
 This is a key point, it is necessary to constantly refactor the code of the new application eliminating unnecessary code to have a more maintainable code base.<br/><br/>
 
-###Use cases<br/><br/>
+### Use cases<br/><br/>
 
 **Microservices**<br/><br/>
 
@@ -48,7 +49,7 @@ When we are implementing a microservice architecture, and we start with the Mono
 
 There are occasions in which an application was developed by a team and then other teams joined the same code base to implement other modules with different business needs, reaching a state in which there is too much coordination and communication for deployment, Correction of errors and even blockades to commit in the code due to pipelines broken by other equipment.<br/><br/>
 
-### Considerations<br/><br/>
+### Considerations<br/>
 
 Take into account the components that when they change require changes in both copies of the application, for example: non-modular css files that are not served in a cdn.<br/><br/>
 

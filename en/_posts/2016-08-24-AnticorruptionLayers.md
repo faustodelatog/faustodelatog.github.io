@@ -3,6 +3,7 @@ layout: post_img
 author: fausto
 title: Anticorruption Layers
 image: /assets/images/capas_anticorrupcion.jpeg
+tags: tecnology
 ---
 That panic moment when the decision of changing the application X which our systems depend on is made.
 <br/><br/>
