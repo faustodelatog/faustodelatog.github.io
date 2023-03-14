@@ -1,7 +1,7 @@
 ---
 layout: post_img
 author: fausto
-image: /assets/images/conways_law.jpeg
+image: /assets/images/businessvalue.jpeg
 title: Business Value
 categories: tecnology
 excerpt: Organizations which design systems … are constrained to produce designs which are copies of the communication structures of these organizations..
