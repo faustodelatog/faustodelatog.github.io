@@ -31,7 +31,7 @@ Due to this fact, if the technology department is organized around technical cap
 <br/>
 *figure 1 – Technical organization of teams*<br/><br/>
 
-![Architecture driven by technical capabilities](/assets/images/conwaylaw_2.jpg.jpg)<br/>
+![Architecture driven by technical capabilities](/assets/images/conwaylaw_2.jpg)<br/>
 <br/>
 *figure 2 – Architecture driven by technical capabilities*<br/><br/>
 
