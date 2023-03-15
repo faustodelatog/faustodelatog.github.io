@@ -4,6 +4,7 @@ author: fausto
 title: Capas de Anticorrupción
 image: /assets/images/capas_anticorrupcion.jpeg
 categories: tecnologia
+excerpt: Cuando construimos sistemas, la mayoría de las veces, estos dependen o necesitan de aplicaciones externas o de terceros. El momento en que una de esas aplicaciones externas necesita ser cambiada o se necesita hacer una actualización es cuando los problemas no cesan.
 ---
 Ese momento de pánico cuando se decide cambiar la aplicación X de la que depende nuestro sistema.
 <br/><br/>
